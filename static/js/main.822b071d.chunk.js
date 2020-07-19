@@ -2963,13 +2963,13 @@
                                             t.next = 19;
                                             break
                                         }
-                                        return t.prev = 1, o = "".concat(Ce, "/log?").concat(Pe({
+                                        return t.prev = 1, o = "https://icfpc2020-api.testkontur.ru".concat(Ce, "/log?").concat(Pe({
                                             gameId: a
                                         })), t.next = 5, fetch(o).then((function(e) {
                                             return e.text()
                                         }));
                                     case 5:
-                                        return s = t.sent, l = s.replace(/\(/g, "[").replace(/\)/g, "]"), i = "".concat(Ce, "/").concat(a, "?").concat(Pe({})), t.next = 10, fetch(i).then((function(e) {
+                                        return s = t.sent, l = s.replace(/\(/g, "[").replace(/\)/g, "]"), i = "https://icfpc2020-api.testkontur.ru".concat(Ce, "/").concat(a, "?").concat(Pe({})), t.next = 10, fetch(i).then((function(e) {
                                             return e.json()
                                         }));
                                     case 10:
@@ -3014,7 +3014,6 @@
     [37, [[[1, 0, [21, 3], [-8, -2], [439, 0, 0, 1], 48, 64, 1]], [[0, 1, [-21, -3], [8, 2], [503, 0, 0, 1], 48, 64, 1]]]],
     [38, [[[1, 0, [12, 1], [-9, -2], [0, 0, 0, 0], 48, 64, 1]], [[0, 1, [-12, -1], [9, 2], [0, 0, 0, 0], 48, 64, 1]]]]
 ]]]`;
-                                        debugger;
                                         c = t.sent, Ta(JSON.parse(l), r ? 130 : 0, r), t.next = 18;
                                         // c = t.sent, Ta(JSON.parse(l), r ? 130 : 0, r), e.renderTitle(c), t.next = 18;
                                         break;
