@@ -2963,7 +2963,7 @@
                                             t.next = 19;
                                             break
                                         }
-                                        return t.prev = 1, o = "https://logs.rumbletoon.com/games/".concat(a), t.next = 10, fetch(o).then((function(e) {
+                                        return t.prev = 1, o = "https://logs.rumbletoon.com/games/".concat(a), t.next = 5, fetch(o).then((function(e) {
                                             return e.text()
                                         }));
                                     case 5:
